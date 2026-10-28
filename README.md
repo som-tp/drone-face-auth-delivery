@@ -41,7 +41,7 @@ Open gripper (servo on Pi / simulated on laptop) + write log entry
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/drone-face-auth-delivery.git
+git clone https://github.com/som-tp/drone-face-auth-delivery.git
 cd drone-face-auth-delivery
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -94,7 +94,4 @@ Every outcome is appended to `deliveries.csv`. Press `q` to quit.
 
 Python · OpenCV (contrib) · NumPy · gpiozero (optional, Raspberry Pi)
 
-## Credits
 
-Original hardware project by <teammates' names>, VIT-AP. This repository contains my own
-implementation of the face-authentication software.
