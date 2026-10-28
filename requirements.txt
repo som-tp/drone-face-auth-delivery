@@ -1,0 +1,4 @@
+opencv-contrib-python>=4.5
+numpy
+# Only needed on a Raspberry Pi with a real servo:
+# gpiozero
